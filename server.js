@@ -6,9 +6,9 @@ const bodyParser = require('body-parser');
 const artists = require('./schema/artists.schema');
 const colors = require('./schema/colors.schema');
 const expansions = require('./schema/expansions.schema');
-const rarity = require('./schema/rarity.schema');
-const types = require('./schema/types.schema');
+const rarities = require('./schema/rarities.schema');
 const subtypes = require('./schema/subtypes.schema');
+const types = require('./schema/types.schema');
 
 const port = '8882';
 
@@ -23,28 +23,32 @@ app.get('/', (req, res)=>{
     res.send('hello world');
 });
 
-app.get('/api/colors', (req, res)=>{
-    colors.find({})
-        .exec((err, result)=>{
-        if(err){
-            res.send(err);
-        } else {
-            res.json(result);
-        }
-    });
+app.get('/api/artist', (req, res)=>{
+    artists.getArtists(req, res);
 });
 
-app.get('/api/colors/:id', (req, res)=>{
-    colors.findOne({
-        _id: req.params.id 
-    })
-        .exec((err, result)=>{
-        if(err){
-            res.send(err);
-        } else {
-            res.json(result);
-        }
-    });
+app.get('/api/color', (req, res)=>{
+    colors.getColors(req, res);
+});
+
+app.get('/api/expansion', (req, res)=>{
+    expansions.getExpansions(req, res);
+});
+
+app.get('/api/rarity', (req, res)=>{
+    rarities.getRarity(req, res);
+});
+
+app.get('/api/subtype', (req, res)=>{
+    subtypes.getSubtypes(req, res);
+});
+
+app.get('/api/type', (req, res)=>{
+    types.getTypes(req, res);
+});
+
+app.get('/api/color/:id', (req, res)=>{
+    colors.getColorById(req, res);
 });
 
 app.listen(port, () => {

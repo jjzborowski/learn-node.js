@@ -1,0 +1,16 @@
+<select ng-model="color" ng-options="color.name for color in colors"></select>
+
+<div id="select-color" class="cwc-select">
+    <input type="hidden">
+    <div class="cwc-select-label">Select...</div>
+    <div class="cwc-select-dropdown">
+        <div class="cwc-select-container">
+            <div class="cwc-select-content">
+                <div class="cwc-select-option" ng-repeat="color in colors">{{color.name}}</div>
+            </div>
+        </div>
+        <div class="cwc-select-track">
+            <div class="cwc-select-thumb"></div>
+        </div>
+    </div>
+</div>
