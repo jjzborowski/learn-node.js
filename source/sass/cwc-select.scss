@@ -1,10 +1,12 @@
 $option-height: 1.2em;
 
-.cwc-select {
+cwc-select {
+    display: inline-block;
     width: 300px;
 
     .cwc-select-label {
         border: 0.1em solid #000000;
+        box-shadow: 2px 2px 8px -1px #000000;
         box-sizing: content-box;
         display: inline-block;
         height: $option-height;
@@ -16,9 +18,15 @@ $option-height: 1.2em;
 
     .cwc-select-dropdown{
         border: 0.1em solid #000000;
-        position: relative;
+        position: absolute;
         top: 100%;
+        visibility: hidden;
         width: 100%;
+        z-index: 2;
+        
+        &.active{
+            visibility: visible;
+        }
 
         .cwc-select-container {
             display: inline-block;
@@ -30,6 +38,7 @@ $option-height: 1.2em;
 
                 .cwc-select-option {
                     color: #ffffff;
+                    cursor: pointer;
                     line-height: $option-height;
                     padding: 0.2em 1em 0.2em 0.5em;
                     text-transform: capitalize;
@@ -40,6 +49,10 @@ $option-height: 1.2em;
 
                     &:nth-child(even) {
                         background-color: #484646;
+                    }
+                    
+                    &:hover{
+                        background-color: #8800B2;
                     }
                 }
             }

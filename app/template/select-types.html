@@ -1,0 +1,11 @@
+<input class="cwc-select-label" placeholder="Select..." ng-model="type" ng-change="refresh('select-type', filtered_types.length)">
+<div class="cwc-select-dropdown">
+    <div class="cwc-select-container">
+        <div class="cwc-select-content">
+            <div class="cwc-select-option" ng-repeat="options in types | filter: {name: type} as filtered_types" ng-click="$parent.type = this.options.name">{{options.name}}</div>
+        </div>
+    </div>
+    <div class="cwc-select-track" ng-show="filtered_types.length > 5">
+        <div class="cwc-select-thumb"></div>
+    </div>
+</div>

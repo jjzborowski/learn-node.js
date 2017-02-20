@@ -4,7 +4,7 @@ const mongoose = require('mongoose'),
       }),
       rarities = module.exports = mongoose.model('rarity', raritySchema);
 
-module.exports.getRarity = (req, res) => {
+module.exports.getRarities = (req, res) => {
     rarities.find({}).exec((err, result)=>{
         if(err){
             res.send(err);

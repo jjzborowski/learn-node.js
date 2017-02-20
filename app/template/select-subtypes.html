@@ -1,0 +1,11 @@
+<input class="cwc-select-label" placeholder="Select..." ng-model="subtype" ng-change="refresh('select-subtype', filtered_subtypes.length)">
+<div class="cwc-select-dropdown">
+    <div class="cwc-select-container">
+        <div class="cwc-select-content">
+            <div class="cwc-select-option" ng-repeat="subtype_option in subtypes | filter: {name: subtype} as filtered_subtypes" ng-click="$parent.subtype = this.subtype_option.name">{{subtype_option.name}}</div>
+        </div>
+    </div>
+    <div class="cwc-select-track" ng-show="filtered_subtypes.length > 5">
+        <div class="cwc-select-thumb"></div>
+    </div>
+</div>

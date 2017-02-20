@@ -23,31 +23,31 @@ app.get('/', (req, res)=>{
     res.send('hello world');
 });
 
-app.get('/api/artist', (req, res)=>{
+app.get('/api/artists', (req, res)=>{
     artists.getArtists(req, res);
 });
 
-app.get('/api/color', (req, res)=>{
+app.get('/api/colors', (req, res)=>{
     colors.getColors(req, res);
 });
 
-app.get('/api/expansion', (req, res)=>{
+app.get('/api/expansions', (req, res)=>{
     expansions.getExpansions(req, res);
 });
 
-app.get('/api/rarity', (req, res)=>{
-    rarities.getRarity(req, res);
+app.get('/api/rarities', (req, res)=>{
+    rarities.getRarities(req, res);
 });
 
-app.get('/api/subtype', (req, res)=>{
+app.get('/api/subtypes', (req, res)=>{
     subtypes.getSubtypes(req, res);
 });
 
-app.get('/api/type', (req, res)=>{
+app.get('/api/types', (req, res)=>{
     types.getTypes(req, res);
 });
 
-app.get('/api/color/:id', (req, res)=>{
+app.get('/api/colors/:id', (req, res)=>{
     colors.getColorById(req, res);
 });
 
