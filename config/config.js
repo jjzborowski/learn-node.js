@@ -8,10 +8,10 @@ module.exports = {
         schema: '/schema',
         images: '/images'
     },
-    database: {
+    db: {
         dbms: 'mongodb',
         host: '127.0.0.1',
         port: 0,
-        db: 'elves'
+        database: 'elves'
     }
 };

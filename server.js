@@ -6,9 +6,9 @@ const config = require('./config/config.js'),
 
 
 //MongoDB connection
-mongoose.connect(config.database.dbms + '://' + config.database.host + ((config.database.port) ? ':' + config.database.port : '') + '/' + config.database.db);
+mongoose.connect(config.db.dbms + '://' + config.db.host + ((config.db.port) ? ':' + config.db.port : '') + '/' + config.db.db);
 mongoose.connection.on('connected', () => {
-    console.log('Connected to database ' + config.database.dbms + '://' + config.database.host + ((config.database.port) ? ':' + config.database.port : '') + '/' + config.database.db);
+    console.log('Connected to database ' + config.db.dbms + '://' + config.db.host + ((config.db.port) ? ':' + config.db.port : '') + '/' + config.db.database);
 });
 mongoose.connection.on('error', (err) => {
     console.log('Database error: ' + err);
