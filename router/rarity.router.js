@@ -1,6 +1,6 @@
 const express = require('express'),
-router = express.Router(),
-rarity = require('../schema/rarity.schema');
+      router = express.Router(),
+      rarity = require('../schema/rarity.schema');
 
 router.get('/', (req, res)=>{
     rarity.getCollection(req, res);

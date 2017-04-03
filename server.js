@@ -16,31 +16,16 @@ mongoose.connection.on('error', (err) => {
 
 //API 
 const app = express();
-app.use(express.static(__dirname + '/app'));
+app.use(express.static(__dirname + config.dir.app));
+app.use(config.dir.images, express.static(__dirname + config.dir.images));
 let routers = {};
-fs.readdirSync(__dirname + '/router').forEach((filename)=>{
+fs.readdirSync(__dirname + config.dir.router).forEach((filename)=>{
     if(~filename.indexOf('.js')){
         let section = filename.split('.')[0];
-        routers[section] = require(__dirname + '/router/' + filename);
+        routers[section] = require(__dirname + config.dir.router + '/' + filename);
         app.use('/api/' + section + '/', routers[section]);
     }
 });
-//const artists = require('./router/artists.router');
-//const colors = require('./router/colors.router');
-//const expansions = require('./router/expansions.router');
-//const rarities = require('./router/rarities.router');
-//const subtypes = require('./router/subtypes.router');
-//const types = require('./router/types.router');
-//const cards = require('./router/cards.router');
-//const labels = require('./router/labels.router');
-//app.use('/api/artist/', artists);
-//app.use('/api/color/', colors);
-//app.use('/api/expansion/', expansions);
-//app.use('/api/rarity/', rarities);
-//app.use('/api/subtype/', subtypes);
-//app.use('/api/type/', types);
-//app.use('/api/card/', cards);
-//app.use('/api/label/', labels);
 
 app.use(bodyParser.json({}));
 

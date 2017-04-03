@@ -1,18 +1,18 @@
-const express = require('express');
-const router = express.Router();
-const bodyParser = require('body-parser');
-const cards = require('../schema/card.schema');
+const express = require('express'),
+      router = express.Router(),
+      bodyParser = require('body-parser'),
+      card = require('../schema/card.schema');
 
 router.get('/', (req, res)=>{
-    cards.getCollection(req, res);
+    card.getCollection(req, res);
 });
 
 router.post('/find', bodyParser.json({}), (req, res)=>{
-    cards.getItem(req, res);
+    card.getItem(req, res);
 });
 
 router.post('/insert', bodyParser.json({limit: 50000000}), (req, res)=>{
-    cards.addItem(req, res);
+    card.addItem(req, res);
 });
 
 module.exports = router;
