@@ -1,0 +1,44 @@
+db.createCollection('types');
+db.types.insert(
+    [
+        {
+            name: "artifact"
+        },
+        {
+            name: "conspiracy"
+        },
+        {
+            name: "creature"
+        },
+        {
+            name: "enchantment"
+        },
+        {
+            name: "instant"
+        },
+        {
+            name: "land"
+        },
+        {
+            name: "phenomenon"
+        },
+        {
+            name: "plane"
+        },
+        {
+            name: "planeswalker"
+        },
+        {
+            name: "scheme"
+        },
+        {
+            name: "sorcery"
+        },
+        {
+            name: "tribal"
+        },
+        {
+            name: "vanguard"
+        }
+    ]
+);

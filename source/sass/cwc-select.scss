@@ -1,16 +1,14 @@
-$option-height: 1.2em;
-
 cwc-select {
     display: inline-block;
     width: 300px;
 
     .cwc-select-label {
         border: 0.1em solid #000000;
-        box-shadow: 2px 2px 8px -1px #000000;
+        box-shadow: $box-shadow;
         box-sizing: content-box;
         display: inline-block;
-        height: $option-height;
-        line-height: $option-height;
+        height: $height;
+        line-height: $height;
         padding: 0.2em 0.5em;
         text-transform: capitalize;
         width: calc(100% - 1.15em);
@@ -30,7 +28,7 @@ cwc-select {
 
         .cwc-select-container {
             display: inline-block;
-            max-height: ($option-height + 0.4em) * 5 + 0.1em;
+            max-height: ($height + 0.4em) * 5 + 0.1em;
             overflow: hidden;
             width: 100%;
 
@@ -39,7 +37,7 @@ cwc-select {
                 .cwc-select-option {
                     color: #ffffff;
                     cursor: pointer;
-                    line-height: $option-height;
+                    line-height: $height;
                     padding: 0.2em 1em 0.2em 0.5em;
                     text-transform: capitalize;
 

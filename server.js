@@ -1,71 +1,49 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
-//const fs = require('fs');
+const config = require('./config/config.js'),
+      express = require('express'),
+      mongoose = require('mongoose'),
+      bodyParser = require('body-parser'),
+      fs = require('fs');
 
-const artists = require('./schema/artists.schema');
-const colors = require('./schema/colors.schema');
-const expansions = require('./schema/expansions.schema');
-const rarities = require('./schema/rarities.schema');
-const subtypes = require('./schema/subtypes.schema');
-const types = require('./schema/types.schema');
 
-const port = '8882';
+//MongoDB connection
+mongoose.connect(config.database.dbms + '://' + config.database.host + ((config.database.port) ? ':' + config.database.port : '') + '/' + config.database.db);
+mongoose.connection.on('connected', () => {
+    console.log('Connected to database ' + config.database.dbms + '://' + config.database.host + ((config.database.port) ? ':' + config.database.port : '') + '/' + config.database.db);
+});
+mongoose.connection.on('error', (err) => {
+    console.log('Database error: ' + err);
+});
 
-mongoose.connect('mongodb://127.0.0.1:27017/elves');
-const db = mongoose.connection;
+//API 
 const app = express();
-
-app.use(express.static(__dirname+'/app'));
-
-
-app.get('/', (req, res)=>{
-    res.send('hello world');
+app.use(express.static(__dirname + '/app'));
+let routers = {};
+fs.readdirSync(__dirname + '/router').forEach((filename)=>{
+    if(~filename.indexOf('.js')){
+        let section = filename.split('.')[0];
+        routers[section] = require(__dirname + '/router/' + filename);
+        app.use('/api/' + section + '/', routers[section]);
+    }
 });
+//const artists = require('./router/artists.router');
+//const colors = require('./router/colors.router');
+//const expansions = require('./router/expansions.router');
+//const rarities = require('./router/rarities.router');
+//const subtypes = require('./router/subtypes.router');
+//const types = require('./router/types.router');
+//const cards = require('./router/cards.router');
+//const labels = require('./router/labels.router');
+//app.use('/api/artist/', artists);
+//app.use('/api/color/', colors);
+//app.use('/api/expansion/', expansions);
+//app.use('/api/rarity/', rarities);
+//app.use('/api/subtype/', subtypes);
+//app.use('/api/type/', types);
+//app.use('/api/card/', cards);
+//app.use('/api/label/', labels);
 
-app.get('/api/artists', (req, res)=>{
-    artists.getArtists(req, res);
+app.use(bodyParser.json({}));
+
+app.listen(config.port, () => {
+    console.log('Server works on port ' + config.port);
 });
-
-app.get('/api/colors', (req, res)=>{
-    colors.getColors(req, res);
-});
-
-app.get('/api/expansions', (req, res)=>{
-    expansions.getExpansions(req, res);
-});
-
-app.get('/api/rarities', (req, res)=>{
-    rarities.getRarities(req, res);
-});
-
-app.get('/api/subtypes', (req, res)=>{
-    subtypes.getSubtypes(req, res);
-});
-
-app.get('/api/types', (req, res)=>{
-    types.getTypes(req, res);
-});
-
-app.get('/api/colors/:id', (req, res)=>{
-    colors.getColorById(req, res);
-});
-
-app.listen(port, () => {
-    console.log('ok');
-});
-
-//fs.readFile('app/index.html', (error, html) => {
-//    if(error){
-//        throw error
-//    }
-//
-//    http.createServer((request, response) => {
-//        response.statusCode = 200;
-//        response.setHeader('Content-type', 'text/html');
-//        response.write(html);
-//        response.end();
-//    }).listen(port, host, () => {
-//        console.log('Server started on port ' + port);
-//    });
-//});

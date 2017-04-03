@@ -1,0 +1,20 @@
+db.createCollection('rarities');
+db.rarities.insert(
+    [
+        {
+            name: "common"
+        },
+        {
+            name: "uncommon"
+        },
+        {
+            name: "rare"
+        },
+        {
+            name: "mythic rare"
+        },
+        {
+            name: "special"
+        }
+    ]
+);

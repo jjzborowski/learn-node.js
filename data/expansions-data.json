@@ -1,0 +1,1019 @@
+db.createCollection('expansions');
+db.expansions.insert(
+    [
+        {
+            name: "Alpha (Limited Edition)",
+            date: "1993-08-01",
+            code: "LEA (A)",
+            type: "Core set"
+        },
+        {
+            name: "Beta (Limited Edition)",
+            date: "1993-10-01",
+            code: "LEB (B)",
+            type: "Core set"
+        },
+        {
+            name: "Unlimited Edition",
+            date: "1993-12-01",
+            code: "2ED (U)",
+            type: "Core set"
+        },
+        {
+            name: "Arabian Nights",
+            date: "1993-12-01",
+            code: "ARN (AN)",
+            type: "Expansion set"
+        },
+        {
+            name: "Antiquities",
+            date: "1994-03-01",
+            code: "ATQ (AQ)",
+            type: "Expansion set"
+        },
+        {
+            name: "Revised Edition",
+            date: "1994-04-01",
+            code: "3ED (RV)",
+            type: "Core set"
+        },
+        {
+            name: "Legends",
+            date: "1994-06-01",
+            code: "LEG (LE)",
+            type: "Expansion set"
+        },
+        {
+            name: "The Dark",
+            date: "1994-08-01",
+            code: "DRK (DK)",
+            type: "Expansion set"
+        },
+        {
+            name: "Fallen Empires",
+            date: "1994-11-01",
+            code: "FEM (FE)",
+            type: "Expansion set"
+        },
+        {
+            name: "4th Edition",
+            date: "1995-05-01",
+            code: "4ED (4E)",
+            type: "Core set"
+        },
+        {
+            name: "Ice Age",
+            date: "1995-06-01",
+            code: "ICE (IA)",
+            type: "Expansion set"
+        },
+        {
+            name: "Chronicles",
+            date: "1995-07-01",
+            code: "CHR (CH)",
+            type: "Compilation set"
+        },
+        {
+            name: "Renaissance",
+            date: "1995-08-01",
+            code: "",
+            type: "Compilation set"
+        },
+        {
+            name: "Homelands",
+            date: "1995-10-01",
+            code: "HML (HL)",
+            type: "Expansion set"
+        },
+        {
+            name: "Alliances",
+            date: "1996-06-01",
+            code: "ALL (AL)",
+            type: "Expansion set"
+        },
+        {
+            name: "Mirage",
+            date: "1996-10-01",
+            code: "MIR (MI)",
+            type: "Expansion set"
+        },
+        {
+            name: "Visions",
+            date: "1997-02-01",
+            code: "VIS (VI)",
+            type: "Expansion set"
+        },
+        {
+            name: "5th Edition",
+            date: "1997-03-01",
+            code: "5ED (5E)",
+            type: "Core set"
+        },
+        {
+            name: "Portal",
+            date: "1997-05-01",
+            code: "POR (PO)",
+            type: "Starter set"
+        },
+        {
+            name: "Weatherlight",
+            date: "1997-06-01",
+            code: "WTH (WL)",
+            type: "Expansion set"
+        },
+        {
+            name: "Tempest",
+            date: "1997-10-01",
+            code: "TMP (TE)",
+            type: "Expansion set"
+        },
+        {
+            name: "Stronghold",
+            date: "1998-02-01",
+            code: "STH (ST)",
+            type: "Expansion set"
+        },
+        {
+            name: "Exodus",
+            date: "1998-06-01",
+            code: "EXO (EX)",
+            type: "Expansion set"
+        },
+        {
+            name: "Portal Second Age",
+            date: "1998-06-01",
+            code: "P02 (P2)",
+            type: "Starter set"
+        },
+        {
+            name: "Unglued",
+            date: "1998-08-01",
+            code: "UGL (UG)",
+            type: "Un-set"
+        },
+        {
+            name: "Urza's Saga",
+            date: "1998-10-01",
+            code: "USG (US)",
+            type: "Expansion set"
+        },
+        {
+            name: "Anthologies",
+            date: "1998-11-01",
+            code: "ATH",
+            type: "Box set"
+        },
+        {
+            name: "Urza's Legacy",
+            date: "1999-02-01",
+            code: "ULG (UL)",
+            type: "Expansion set"
+        },
+        {
+            name: "6th Edition",
+            date: "1999-04-01",
+            code: "6ED (6E)",
+            type: "Core set"
+        },
+        {
+            name: "Urza's Destiny",
+            date: "1999-06-01",
+            code: "UDS (UD)",
+            type: "Expansion set"
+        },
+        {
+            name: "Portal Three Kingdoms",
+            date: "1999-07-01",
+            code: "PTK (P3)",
+            type: "Starter set"
+        },
+        {
+            name: "Starter 1999",
+            date: "1999-08-01",
+            code: "S99",
+            type: "Starter set"
+        },
+        {
+            name: "Mercadian Masques",
+            date: "1999-09-01",
+            code: "MMQ (MM)",
+            type: "Expansion set"
+        },
+        {
+            name: "Battle Royale",
+            date: "1999-11-01",
+            code: "BRB",
+            type: "Box set"
+        },
+        {
+            name: "Nemesis",
+            date: "2000-02-01",
+            code: "NEM (NE)",
+            type: "Expansion set"
+        },
+        {
+            name: "Starter 2000",
+            date: "2000-04-01",
+            code: "S00",
+            type: "Starter set"
+        },
+        {
+            name: "Prophecy",
+            date: "2000-06-01",
+            code: "PCY (PR)",
+            type: "Expansion set"
+        },
+        {
+            name: "Invasion",
+            date: "2000-09-01",
+            code: "INV (IN)",
+            type: "Expansion set"
+        },
+        {
+            name: "Beatdown",
+            date: "2000-10-01",
+            code: "BTD",
+            type: "Box set"
+        },
+        {
+            name: "Planeshift",
+            date: "2001-01-01",
+            code: "PLS (PL)",
+            type: "Expansion set"
+        },
+        {
+            name: "7th Edition",
+            date: "2001-04-01",
+            code: "7ED (7E)",
+            type: "Core set"
+        },
+        {
+            name: "Apocalypse",
+            date: "2001-05-01",
+            code: "APC (AP)",
+            type: "Expansion set"
+        },
+        {
+            name: "Odyssey",
+            date: "2001-10-01",
+            code: "ODY (OD)",
+            type: "Expansion set"
+        },
+        {
+            name: "Deckmasters 2001",
+            date: "2001-12-01",
+            code: "DKM",
+            type: "Box set"
+        },
+        {
+            name: "Torment",
+            date: "2002-02-01",
+            code: "TOR (TO)",
+            type: "Expansion set"
+        },
+        {
+            name: "Judgment",
+            date: "2002-05-01",
+            code: "JUD (JU)",
+            type: "Expansion set"
+        },
+        {
+            name: "Onslaught",
+            date: "2002-10-01",
+            code: "ONS (ON)",
+            type: "Expansion set"
+        },
+        {
+            name: "Legions",
+            date: "2003-01-01",
+            code: "LGN (LE)",
+            type: "Expansion set"
+        },
+        {
+            name: "Scourge",
+            date: "2003-05-01",
+            code: "SCG (SC)",
+            type: "Expansion set"
+        },
+        {
+            name: "8th Edition",
+            date: "2003-07-01",
+            code: "8ED (8E)",
+            type: "Core set"
+        },
+        {
+            name: "Mirrodin",
+            date: "2003-10-01",
+            code: "MRD",
+            type: "Expansion set"
+        },
+        {
+            name: "Darksteel",
+            date: "2004-02-01",
+            code: "DST",
+            type: "Expansion set"
+        },
+        {
+            name: "Fifth Dawn",
+            date: "2004-06-01",
+            code: "5DN",
+            type: "Expansion set"
+        },
+        {
+            name: "Champions of Kamigawa",
+            date: "2004-10-01",
+            code: "CHK",
+            type: "Expansion set"
+        },
+        {
+            name: "Unhinged",
+            date: "2004-11-01",
+            code: "UNH",
+            type: "Un-set"
+        },
+        {
+            name: "Betrayers of Kamigawa",
+            date: "2005-02-01",
+            code: "BOK",
+            type: "Expansion set"
+        },
+        {
+            name: "Saviors of Kamigawa",
+            date: "2005-06-01",
+            code: "SOK",
+            type: "Expansion set"
+        },
+        {
+            name: "9th Edition",
+            date: "2005-07-01",
+            code: "9ED",
+            type: "Core set"
+        },
+        {
+            name: "Ravnica: City of Guilds",
+            date: "2005-10-01",
+            code: "RAV",
+            type: "Expansion set"
+        },
+        {
+            name: "Guildpact",
+            date: "2006-02-01",
+            code: "GPT",
+            type: "Expansion set"
+        },
+        {
+            name: "Dissension",
+            date: "2006-05-01",
+            code: "DIS",
+            type: "Expansion set"
+        },
+        {
+            name: "Coldsnap",
+            date: "2006-07-01",
+            code: "CSP",
+            type: "Expansion set"
+        },
+        {
+            name: "Time Spiral",
+            date: "2006-10-01",
+            code: "TSP/TSB",
+            type: "Expansion set"
+        },
+        {
+            name: "Planar Chaos",
+            date: "2007-02-01",
+            code: "PLC",
+            type: "Expansion set"
+        },
+        {
+            name: "Future Sight",
+            date: "2007-05-01",
+            code: "FUT",
+            type: "Expansion set"
+        },
+        {
+            name: "10th Edition",
+            date: "2007-07-01",
+            code: "10E",
+            type: "Core set"
+        },
+        {
+            name: "Masters Edition",
+            date: "2007-09-01",
+            code: "MED",
+            type: "Compilation set"
+        },
+        {
+            name: "Lorwyn",
+            date: "2007-10-01",
+            code: "LRW",
+            type: "Expansion set"
+        },
+        {
+            name: "Duel Decks: Elves vs. Goblins",
+            date: "2007-11-01",
+            code: "EVG",
+            type: "Box set"
+        },
+        {
+            name: "Morningtide",
+            date: "2008-02-01",
+            code: "MOR",
+            type: "Expansion set"
+        },
+        {
+            name: "Shadowmoor",
+            date: "2008-05-01",
+            code: "SHM",
+            type: "Expansion set"
+        },
+        {
+            name: "Eventide",
+            date: "2008-06-01",
+            code: "EVE",
+            type: "Expansion set"
+        },
+        {
+            name: "From the Vault: Dragons",
+            date: "2008-08-01",
+            code: "DRB",
+            type: "Box set"
+        },
+        {
+            name: "Masters Edition II",
+            date: "2008-09-01",
+            code: "ME2",
+            type: "Compilation set"
+        },
+        {
+            name: "Shards of Alara",
+            date: "2008-09-01",
+            code: "ALA",
+            type: "Expansion set"
+        },
+        {
+            name: "Duel Decks: Jace vs. Chandra",
+            date: "2008-11-01",
+            code: "DD2",
+            type: "Box set"
+        },
+        {
+            name: "Conflux",
+            date: "2009-02-01",
+            code: "CON",
+            type: "Expansion set"
+        },
+        {
+            name: "Duel Decks: Divine vs. Demonic",
+            date: "2009-04-01",
+            code: "DDC",
+            type: "Box set"
+        },
+        {
+            name: "Alara Reborn",
+            date: "2009-04-01",
+            code: "ARB",
+            type: "Expansion set"
+        },
+        {
+            name: "Magic 2010",
+            date: "2009-07-01",
+            code: "M10",
+            type: "Core set"
+        },
+        {
+            name: "Commander Theme Decks",
+            date: "2009-08-01",
+            code: "",
+            type: "Box set"
+        },
+        {
+            name: "From the Vault: Exiled",
+            date: "2009-08-01",
+            code: "V09",
+            type: "Box set"
+        },
+        {
+            name: "Planechase (2009)",
+            date: "2009-09-01",
+            code: "HOP",
+            type: "Supplemental set"
+        },
+        {
+            name: "Masters Edition III",
+            date: "2009-09-01",
+            code: "ME3",
+            type: "Compilation set"
+        },
+        {
+            name: "Zendikar",
+            date: "2009-10-01",
+            code: "ZEN",
+            type: "Expansion set"
+        },
+        {
+            name: "Duel Decks: Garruk vs. Liliana",
+            date: "2009-10-01",
+            code: "DDD",
+            type: "Box set"
+        },
+        {
+            name: "Premium Deck Series: Slivers",
+            date: "2009-11-01",
+            code: "H09",
+            type: "Box set"
+        },
+        {
+            name: "Worldwake",
+            date: "2010-02-01",
+            code: "WWK",
+            type: "Expansion set"
+        },
+        {
+            name: "Duel Decks: Phyrexia vs. The Coalition",
+            date: "2010-03-01",
+            code: "DDE",
+            type: "Box set"
+        },
+        {
+            name: "Rise of the Eldrazi",
+            date: "2010-04-01",
+            code: "ROE",
+            type: "Expansion set"
+        },
+        {
+            name: "Deck Builder's Toolkit (2010)",
+            date: "2010-05-01",
+            code: "",
+            type: "Box set"
+        },
+        {
+            name: "Duels of the Planeswalkers",
+            date: "2010-06-01",
+            code: "DPA",
+            type: "Box set"
+        },
+        {
+            name: "Archenemy",
+            date: "2010-06-01",
+            code: "ARC",
+            type: "Supplemental set"
+        },
+        {
+            name: "Magic 2011",
+            date: "2010-07-01",
+            code: "M11",
+            type: "Core set"
+        },
+        {
+            name: "From the Vault: Relics",
+            date: "2010-08-01",
+            code: "V10",
+            type: "Box set"
+        },
+        {
+            name: "Duel Decks: Elspeth vs. Tezzeret",
+            date: "2010-09-01",
+            code: "DDF",
+            type: "Box set"
+        },
+        {
+            name: "Scars of Mirrodin",
+            date: "2010-10-01",
+            code: "SOM",
+            type: "Expansion set"
+        },
+        {
+            name: "Premium Deck Series: Fire & Lightning",
+            date: "2010-11-01",
+            code: "PD2",
+            type: "Box set"
+        },
+        {
+            name: "Masters Edition IV",
+            date: "2011-01-01",
+            code: "ME4",
+            type: "Compilation set"
+        },
+        {
+            name: "Mirrodin Besieged",
+            date: "2011-02-01",
+            code: "MBS",
+            type: "Expansion set"
+        },
+        {
+            name: "Deck Builder's Toolkit (2011)",
+            date: "2011-03-01",
+            code: "",
+            type: "Box set"
+        },
+        {
+            name: "Duel Decks: Knights vs. Dragons",
+            date: "2011-04-01",
+            code: "DDG",
+            type: "Box set"
+        },
+        {
+            name: "New Phyrexia",
+            date: "2011-05-01",
+            code: "NPH",
+            type: "Expansion set"
+        },
+        {
+            name: "Commander (2011)",
+            date: "2011-06-01",
+            code: "CMD",
+            type: "Box set"
+        },
+        {
+            name: "Magic 2012",
+            date: "2011-07-01",
+            code: "M12",
+            type: "Core set"
+        },
+        {
+            name: "From the Vault: Legends",
+            date: "2011-08-01",
+            code: "V11",
+            type: "Box set"
+        },
+        {
+            name: "Duel Decks: Ajani vs. Nicol Bolas",
+            date: "2011-09-01",
+            code: "DDH",
+            type: "Box set"
+        },
+        {
+            name: "Innistrad",
+            date: "2011-09-01",
+            code: "ISD",
+            type: "Expansion set"
+        },
+        {
+            name: "Premium Deck Series: Graveborn",
+            date: "2011-11-01",
+            code: "PD3",
+            type: "Box set"
+        },
+        {
+            name: "Dark Ascension",
+            date: "2012-02-01",
+            code: "DKA",
+            type: "Expansion set"
+        },
+        {
+            name: "Duel Decks: Venser vs. Koth",
+            date: "2012-03-01",
+            code: "DDI",
+            type: "Box set"
+        },
+        {
+            name: "Avacyn Restored",
+            date: "2012-05-01",
+            code: "AVR",
+            type: "Expansion set"
+        },
+        {
+            name: "Planechase 2012",
+            date: "2012-05-01",
+            code: "PC2",
+            type: "Supplemental set"
+        },
+        {
+            name: "Magic 2013",
+            date: "2012-07-01",
+            code: "M13",
+            type: "Core set"
+        },
+        {
+            name: "From the Vault: Realms",
+            date: "2012-08-01",
+            code: "V12",
+            type: "Box set"
+        },
+        {
+            name: "Duel Decks: Izzet vs. Golgari",
+            date: "2012-09-01",
+            code: "DDJ",
+            type: "Box set"
+        },
+        {
+            name: "Return to Ravnica",
+            date: "2012-10-01",
+            code: "RTR",
+            type: "Expansion set"
+        },
+        {
+            name: "Commander's Arsenal",
+            date: "2012-11-01",
+            code: "CM1",
+            type: "Box set"
+        },
+        {
+            name: "Gatecrash",
+            date: "2013-02-01",
+            code: "GTC",
+            type: "Expansion set"
+        },
+        {
+            name: "Duel Decks: Sorin vs. Tibalt",
+            date: "2013-03-01",
+            code: "DDK",
+            type: "Box set"
+        },
+        {
+            name: "Dragon's Maze",
+            date: "2013-05-01",
+            code: "DGM",
+            type: "Expansion set"
+        },
+        {
+            name: "Modern Masters (2013)",
+            date: "2013-06-01",
+            code: "MMA",
+            type: "Compilation set"
+        },
+        {
+            name: "Magic 2014",
+            date: "2013-07-01",
+            code: "M14",
+            type: "Core set"
+        },
+        {
+            name: "From the Vault: Twenty",
+            date: "2013-08-01",
+            code: "V13",
+            type: "Box set"
+        },
+        {
+            name: "Duel Decks: Heroes vs. Monsters",
+            date: "2013-09-01",
+            code: "DDL",
+            type: "Box set"
+        },
+        {
+            name: "Theros",
+            date: "2013-09-01",
+            code: "THS",
+            type: "Expansion set"
+        },
+        {
+            name: "Commander 2013",
+            date: "2013-11-01",
+            code: "C13",
+            type: "Box set"
+        },
+        {
+            name: "Born of the Gods",
+            date: "2014-02-01",
+            code: "BNG",
+            type: "Expansion set"
+        },
+        {
+            name: "Duel Decks: Jace vs. Vraska",
+            date: "2014-03-01",
+            code: "DDM",
+            type: "Box set"
+        },
+        {
+            name: "Journey into Nyx",
+            date: "2014-05-01",
+            code: "JOU",
+            type: "Expansion set"
+        },
+        {
+            name: "Modern Event Deck",
+            date: "2014-05-01",
+            code: "MD1",
+            type: "Box set"
+        },
+        {
+            name: "Conspiracy",
+            date: "2014-06-01",
+            code: "CNS",
+            type: "Supplemental set"
+        },
+        {
+            name: "Vintage Masters",
+            date: "2014-06-01",
+            code: "VMA",
+            type: "Compilation set"
+        },
+        {
+            name: "Magic 2015",
+            date: "2014-07-01",
+            code: "M15",
+            type: "Core set"
+        },
+        {
+            name: "From the Vault: Annihilation",
+            date: "2014-08-01",
+            code: "V14",
+            type: "Box set"
+        },
+        {
+            name: "Duel Decks: Speed vs. Cunning",
+            date: "2014-10-01",
+            code: "DDN",
+            type: "Box set"
+        },
+        {
+            name: "Khans of Tarkir",
+            date: "2014-10-01",
+            code: "KTK",
+            type: "Expansion set"
+        },
+        {
+            name: "Commander 2014",
+            date: "2014-11-01",
+            code: "C14",
+            type: "Box set"
+        },
+        {
+            name: "Duel Decks Anthology",
+            date: "2014-12-01",
+            code: "DD3",
+            type: "Box set"
+        },
+        {
+            name: "Fate Reforged",
+            date: "2015-01-01",
+            code: "FRF",
+            type: "Expansion set"
+        },
+        {
+            name: "Duel Decks: Elspeth vs. Kiora",
+            date: "2015-02-01",
+            code: "DDO",
+            type: "Box set"
+        },
+        {
+            name: "Dragons of Tarkir",
+            date: "2015-03-01",
+            code: "DTK",
+            type: "Expansion set"
+        },
+        {
+            name: "Tempest Remastered",
+            date: "2015-05-01",
+            code: "TPR",
+            type: "Compilation set"
+        },
+        {
+            name: "Modern Masters 2015",
+            date: "2015-05-01",
+            code: "MM2",
+            type: "Compilation set"
+        },
+        {
+            name: "Magic Origins",
+            date: "2015-07-01",
+            code: "ORI",
+            type: "Core set"
+        },
+        {
+            name: "From the Vault: Angels",
+            date: "2015-08-01",
+            code: "V15",
+            type: "Box set"
+        },
+        {
+            name: "Duel Decks: Zendikar vs. Eldrazi",
+            date: "2015-08-01",
+            code: "DDP",
+            type: "Box set"
+        },
+        {
+            name: "Battle for Zendikar",
+            date: "2015-10-01",
+            code: "BFZ",
+            type: "Expansion set"
+        },
+        {
+            name: "Zendikar Expeditions",
+            date: "2015-10-01",
+            code: "EXP",
+            type: "Compilation set"
+        },
+        {
+            name: "Commander 2015",
+            date: "2015-11-01",
+            code: "C15",
+            type: "Box set"
+        },
+        {
+            name: "Legendary Cube",
+            date: "2015-11-01",
+            code: "",
+            type: "Compilation set"
+        },
+        {
+            name: "Oath of the Gatewatch",
+            date: "2016-01-01",
+            code: "OGW",
+            type: "Expansion set"
+        },
+        {
+            name: "Duel Decks: Blessed vs. Cursed",
+            date: "2016-02-01",
+            code: "DDQ",
+            type: "Box set"
+        },
+        {
+            name: "Shadows over Innistrad",
+            date: "2016-04-01",
+            code: "SOI",
+            type: "Expansion set"
+        },
+        {
+            name: "Eternal Masters",
+            date: "2016-06-01",
+            code: "EMA",
+            type: "Compilation set"
+        },
+        {
+            name: "Eldritch Moon",
+            date: "2016-07-01",
+            code: "EMN",
+            type: "Expansion set"
+        },
+        {
+            name: "From the Vault: Lore",
+            date: "2016-08-01",
+            code: "V16",
+            type: "Box set"
+        },
+        {
+            name: "Conspiracy: Take the Crown",
+            date: "2016-08-01",
+            code: "CN2",
+            type: "Supplemental set"
+        },
+        {
+            name: "Duel Decks: Nissa vs. Ob Nixilis",
+            date: "2016-09-01",
+            code: "DDR",
+            type: "Box set"
+        },
+        {
+            name: "Kaladesh",
+            date: "2016-09-01",
+            code: "KLD",
+            type: "Expansion set"
+        },
+        {
+            name: "Commander 2016",
+            date: "2016-11-01",
+            code: "C16",
+            type: "Box set"
+        },
+        {
+            name: "Planechase Anthology",
+            date: "2016-11-01",
+            code: "PCA",
+            type: "Box set"
+        },
+        {
+            name: "Aether Revolt",
+            date: "2017-01-01",
+            code: "AER",
+            type: "Expansion set"
+        },
+        {
+            name: "Modern Masters 2017",
+            date: "2017-03-01",
+            code: "MM3",
+            type: "Compilation set"
+        },
+        {
+            name: "Duel Decks: Mind vs. Might",
+            date: "2017-03-01",
+            code: "DDS",
+            type: "Box set"
+        },
+        {
+            name: "Amonkhet",
+            date: "2017-04-01",
+            code: "AKH",
+            type: "Expansion set"
+        },
+        {
+            name: "Commander Anthology",
+            date: "2017-06-01",
+            code: "CMA",
+            type: "Box set"
+        },
+        {
+            name: "Archenemy: Nicol Bolas",
+            date: "2017-06-01",
+            code: "",
+            type: "Supplemental set"
+        },
+        {
+            name: "Hour of Devastation",
+            date: "2017-07-01",
+            code: "HOU",
+            type: "Expansion set"
+        }
+    ]
+);

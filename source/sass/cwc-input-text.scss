@@ -1,0 +1,10 @@
+cwc-input-text{
+    input{
+        border: .1em solid #000;
+        box-shadow: $box-shadow;
+        box-sizing: content-box;
+        height: $height;
+        line-height: $height;
+        padding: .2em .5em;
+    }
+}

@@ -1,10 +1,10 @@
 const gulp = require('gulp'),
-      sass = require('gulp-sass'),
-      css = require('gulp-clean-css'),
-      rename = require('gulp-rename'),
-      uglify = require('gulp-uglify'),
       autoprefixer = require('gulp-autoprefixer'),
       babel = require('gulp-babel'),
+      css = require('gulp-clean-css'),
+      rename = require('gulp-rename'),
+      sass = require('gulp-sass'),
+      uglify = require('gulp-uglify'),
       src = {
           sass: 'source/sass/*.scss',
           js: 'source/js/*.js'    

@@ -1,0 +1,27 @@
+cwc-input-checkbox{
+    input{
+        display: none;
+        &:checked+label{
+            i{
+                opacity: 1;
+            }
+        }
+    }
+
+    label{
+        background-color: #ffffff;
+        border: .1em solid #000;
+        box-shadow: $box-shadow;
+        display: inline-block;
+        height: $height;
+        line-height: $height;
+        text-align: center;
+        width: $width;
+
+        i{
+            font-size: .8em;
+            opacity: 0;
+            transition: all .5s ease-in-out;
+        }
+    }
+}

@@ -1,0 +1,1628 @@
+db.createCollection('artists');
+db.artists.insert(
+    [
+        {
+            name: "Aaron Boyd"
+        },
+        {
+            name: "Aaron Miller"
+        },
+        {
+            name: "Adam Paquette"
+        },
+        {
+            name: "Adam Rex"
+        },
+        {
+            name: "Adi Granov"
+        },
+        {
+            name: "Adrian Smith"
+        },
+        {
+            name: "Al Davidson"
+        },
+        {
+            name: "Al Desheng"
+        },
+        {
+            name: "Alan Pollack"
+        },
+        {
+            name: "Alan Rabinowitz"
+        },
+        {
+            name: "Alejandro Mirabal"
+        },
+        {
+            name: "Aleksi Briclot"
+        },
+        {
+            name: "Alex Horley-Orlandelli"
+        },
+        {
+            name: "Alton Lawson"
+        },
+        {
+            name: "Amy Weber"
+        },
+        {
+            name: "Anastasia Ovchinnikova"
+        },
+        {
+            name: "Andi Rusu"
+        },
+        {
+            name: "Andrew Goldhawk"
+        },
+        {
+            name: "Andrew Murray"
+        },
+        {
+            name: "Andrew Robinson"
+        },
+        {
+            name: "Anna Steinbauer"
+        },
+        {
+            name: "Anson Maddocks"
+        },
+        {
+            name: "Anthony Francisco"
+        },
+        {
+            name: "Anthony Palumbo"
+        },
+        {
+            name: "Anthony Waters"
+        },
+        {
+            name: "April Lee"
+        },
+        {
+            name: "Ariel Olivetti"
+        },
+        {
+            name: "Arnie Swekel"
+        },
+        {
+            name: "Ash Wood"
+        },
+        {
+            name: "Austin Hsu"
+        },
+        {
+            name: "Bastien L. Deharme"
+        },
+        {
+            name: "Ben Maier"
+        },
+        {
+            name: "Ben Thompson"
+        },
+        {
+            name: "Berry"
+        },
+        {
+            name: "Bill Sienkiewicz"
+        },
+        {
+            name: "Blackie del Rio"
+        },
+        {
+            name: "Bob Eggleton"
+        },
+        {
+            name: "Bob Petillo"
+        },
+        {
+            name: "Brad Rigney"
+        },
+        {
+            name: "Bradley Williams"
+        },
+        {
+            name: "Brandon Dorman"
+        },
+        {
+            name: "Brandon Kitkouski"
+        },
+        {
+            name: "Brian Despain"
+        },
+        {
+            name: "Brian Durfee"
+        },
+        {
+            name: "Brian Hagan"
+        },
+        {
+            name: "Brian Horton"
+        },
+        {
+            name: "Brian Snõddy"
+        },
+        {
+            name: "Brom"
+        },
+        {
+            name: "Bryan Talbot"
+        },
+        {
+            name: "Bryon Wackwitz"
+        },
+        {
+            name: "Bud Cook"
+        },
+        {
+            name: "Cai Tingting"
+        },
+        {
+            name: "Cara Mitten"
+        },
+        {
+            name: "Carl Critchlow"
+        },
+        {
+            name: "Carl Frank"
+        },
+        {
+            name: "Carol Heyer"
+        },
+        {
+            name: "Catherine Buck"
+        },
+        {
+            name: "Cecil Fernando"
+        },
+        {
+            name: "Charles Gillespie"
+        },
+        {
+            name: "Charles Urbach"
+        },
+        {
+            name: "Chase Stone"
+        },
+        {
+            name: "Chen Weidong"
+        },
+        {
+            name: "Chengo McFlingers"
+        },
+        {
+            name: "Chippy"
+        },
+        {
+            name: "Chris Appelhans"
+        },
+        {
+            name: "Chris Dien"
+        },
+        {
+            name: "Chris J. Anderson"
+        },
+        {
+            name: "Chris Rahn"
+        },
+        {
+            name: "Chris Rallis"
+        },
+        {
+            name: "Christine Choi"
+        },
+        {
+            name: "Christopher Moeller"
+        },
+        {
+            name: "Christopher Rush"
+        },
+        {
+            name: "Chuck Lukacs"
+        },
+        {
+            name: "Ciruleo Cabral"
+        },
+        {
+            name: "Cliff Childs"
+        },
+        {
+            name: "Cliff Nielsen"
+        },
+        {
+            name: "Clint Cearly"
+        },
+        {
+            name: "Clint Langley"
+        },
+        {
+            name: "Clyde Caldwell"
+        },
+        {
+            name: "Cole Eastburn"
+        },
+        {
+            name: "Colin MacNeil"
+        },
+        {
+            name: "Corey D. Macourek"
+        },
+        {
+            name: "Cornelius Brudi"
+        },
+        {
+            name: "Cos Koniotis"
+        },
+        {
+            name: "Craig J Spearing"
+        },
+        {
+            name: "Craig Mullins"
+        },
+        {
+            name: "Cris Dornaus"
+        },
+        {
+            name: "Cynthia Sheppard"
+        },
+        {
+            name: "Cyril van der Haegen"
+        },
+        {
+            name: "D. Alexander Gregory"
+        },
+        {
+            name: "D.J. Cleland-Hura"
+        },
+        {
+            name: "Daarken"
+        },
+        {
+            name: "Dameon Willich"
+        },
+        {
+            name: "Dan dos Santos"
+        },
+        {
+            name: "Dan Frazier"
+        },
+        {
+            name: "Dan Scott"
+        },
+        {
+            name: "Dan Seagrave"
+        },
+        {
+            name: "Dana Knutson"
+        },
+        {
+            name: "Daniel Gelon"
+        },
+        {
+            name: "Daniel Ljunggren"
+        },
+        {
+            name: "Daniel R. Horne"
+        },
+        {
+            name: "Dany Orizio"
+        },
+        {
+            name: "Darbury Stenderu"
+        },
+        {
+            name: "Darek Zabrocki"
+        },
+        {
+            name: "Daren Bader"
+        },
+        {
+            name: "Darrell Riche"
+        },
+        {
+            name: "Dave Alssop"
+        },
+        {
+            name: "Dave DeVries"
+        },
+        {
+            name: "Dave Dorman"
+        },
+        {
+            name: "Dave Hudnut"
+        },
+        {
+            name: "Dave Kendall"
+        },
+        {
+            name: "David A. Cherry"
+        },
+        {
+            name: "David Day"
+        },
+        {
+            name: "David Gaillet"
+        },
+        {
+            name: "David Ho"
+        },
+        {
+            name: "David Horne"
+        },
+        {
+            name: "David Martin"
+        },
+        {
+            name: "David Monette"
+        },
+        {
+            name: "David O'Connor"
+        },
+        {
+            name: "David Palumbo"
+        },
+        {
+            name: "David Rapoza"
+        },
+        {
+            name: "David Seeley"
+        },
+        {
+            name: "Dennis Detwiller"
+        },
+        {
+            name: "Dermot Power"
+        },
+        {
+            name: "Deruchenko Alexander"
+        },
+        {
+            name: "Diana Vick"
+        },
+        {
+            name: "Ding Songjian"
+        },
+        {
+            name: "Dom!"
+        },
+        {
+            name: "Dominick Domingo"
+        },
+        {
+            name: "Don Hazeltine"
+        },
+        {
+            name: "Donato Giancola"
+        },
+        {
+            name: "Doug Chaffee"
+        },
+        {
+            name: "Doug Keith"
+        },
+        {
+            name: "Douglas Shuler"
+        },
+        {
+            name: "Drew Baker"
+        },
+        {
+            name: "Drew Tucker"
+        },
+        {
+            name: "Dylan Martens"
+        },
+        {
+            name: "E. M. Gist"
+        },
+        {
+            name: "Edward Beard Jr."
+        },
+        {
+            name: "Efrem Palacios"
+        },
+        {
+            name: "Eric David Anderson"
+        },
+        {
+            name: "Eric Deschamps"
+        },
+        {
+            name: "Eric Fortune"
+        },
+        {
+            name: "Eric Peterson"
+        },
+        {
+            name: "Eric Polak"
+        },
+        {
+            name: "Erica Gassalasca-Jape"
+        },
+        {
+            name: "Erica Yang"
+        },
+        {
+            name: "Esad Ribic"
+        },
+        {
+            name: "Eytan Zana"
+        },
+        {
+            name: "Fang Yue"
+        },
+        {
+            name: "Fay Jones"
+        },
+        {
+            name: "Filip Burburan"
+        },
+        {
+            name: "Florian de Gesincourt"
+        },
+        {
+            name: "Francis Tsai"
+        },
+        {
+            name: "Frank Kelly Freas"
+        },
+        {
+            name: "Franz Vohwinkel"
+        },
+        {
+            name: "Fred Fields"
+        },
+        {
+            name: "Fred Harper"
+        },
+        {
+            name: "Fred Hooper"
+        },
+        {
+            name: "Fred Rahmqvist"
+        },
+        {
+            name: "Gabor Szikszai"
+        },
+        {
+            name: "Gao Jianzhang"
+        },
+        {
+            name: "Gao Yan"
+        },
+        {
+            name: "Gary Grace"
+        },
+        {
+            name: "Gary Leach"
+        },
+        {
+            name: "Gary Ruddell"
+        },
+        {
+            name: "Geofrey Darrow"
+        },
+        {
+            name: "George Pratt"
+        },
+        {
+            name: "Gerry Grace"
+        },
+        {
+            name: "Glen Angus"
+        },
+        {
+            name: "Glenn Fabry"
+        },
+        {
+            name: "Goran Josic"
+        },
+        {
+            name: "Greg Hildebrandt"
+        },
+        {
+            name: "Greg Opalinski"
+        },
+        {
+            name: "Greg Simanson"
+        },
+        {
+            name: "Greg Spalenka"
+        },
+        {
+            name: "Greg Staples"
+        },
+        {
+            name: "Hannibal King"
+        },
+        {
+            name: "Harold McNeill"
+        },
+        {
+            name: "He Jiancheng"
+        },
+        {
+            name: "Heather Hudson"
+        },
+        {
+            name: "Henry G. Higgenbotham"
+        },
+        {
+            name: "Henry van der Linde"
+        },
+        {
+            name: "Hideaki Takamura"
+        },
+        {
+            name: "Hiro Izawa"
+        },
+        {
+            name: "Hong Yan"
+        },
+        {
+            name: "Howard Lyon"
+        },
+        {
+            name: "Huang Qishi"
+        },
+        {
+            name: "Hugh Jamieson"
+        },
+        {
+            name: "I. Rabarot"
+        },
+        {
+            name: "Iain McCaig"
+        },
+        {
+            name: "Ian Edward Ameling"
+        },
+        {
+            name: "Ian Miller"
+        },
+        {
+            name: "Igor Kieryluk"
+        },
+        {
+            name: "Ironbrush"
+        },
+        {
+            name: "Ittoku"
+        },
+        {
+            name: "Izzy"
+        },
+        {
+            name: "Jack Wang"
+        },
+        {
+            name: "Jack Wei"
+        },
+        {
+            name: "Jacques Bredy"
+        },
+        {
+            name: "Jaime Jones"
+        },
+        {
+            name: "Jakub Kasper"
+        },
+        {
+            name: "Jama Jurabaev"
+        },
+        {
+            name: "James Allen"
+        },
+        {
+            name: "James Bernardin"
+        },
+        {
+            name: "James Ernest"
+        },
+        {
+            name: "James Kei"
+        },
+        {
+            name: "James Paick"
+        },
+        {
+            name: "James Ryman"
+        },
+        {
+            name: "James Wong"
+        },
+        {
+            name: "James Zapata"
+        },
+        {
+            name: "Jana Schirmer"
+        },
+        {
+            name: "Janet Aulisio"
+        },
+        {
+            name: "Janine Johnston"
+        },
+        {
+            name: "Jarreau Wimberly"
+        },
+        {
+            name: "Jason A. Engle"
+        },
+        {
+            name: "Jason Alexander Behnke"
+        },
+        {
+            name: "Jason Chan"
+        },
+        {
+            name: "Jason Engle"
+        },
+        {
+            name: "Jason Felix"
+        },
+        {
+            name: "Jason Kang"
+        },
+        {
+            name: "Jason Norman"
+        },
+        {
+            name: "Jason Rainville"
+        },
+        {
+            name: "jD"
+        },
+        {
+            name: "Jean-Sébastien Rossbach"
+        },
+        {
+            name: "Jeff A. Menges"
+        },
+        {
+            name: "Jeff Easly"
+        },
+        {
+            name: "Jeff Laubenstein"
+        },
+        {
+            name: "Jeff Nentrup"
+        },
+        {
+            name: "Jeff Reitz"
+        },
+        {
+            name: "Jeff Remmer"
+        },
+        {
+            name: "Jeff Simpson"
+        },
+        {
+            name: "Jeffrey R. Busch"
+        },
+        {
+            name: "Jen Page"
+        },
+        {
+            name: "Jennifer Law"
+        },
+        {
+            name: "Jeremy Enecio"
+        },
+        {
+            name: "Jeremy Jarvis"
+        },
+        {
+            name: "Jerry Tiritilly"
+        },
+        {
+            name: "Jesper Ejsing"
+        },
+        {
+            name: "Jesper Myrfors"
+        },
+        {
+            name: "Ji Yong"
+        },
+        {
+            name: "Jiaming"
+        },
+        {
+            name: "Jian Zhuqing"
+        },
+        {
+            name: "Jim Murray"
+        },
+        {
+            name: "Jim Nelson"
+        },
+        {
+            name: "Jim Pavelec"
+        },
+        {
+            name: "Joel Biske"
+        },
+        {
+            name: "Joel Thomas"
+        },
+        {
+            name: "Johann Bodin"
+        },
+        {
+            name: "Johannes Voss"
+        },
+        {
+            name: "John Avon"
+        },
+        {
+            name: "John Bolton"
+        },
+        {
+            name: "John Coulthart"
+        },
+        {
+            name: "John Donahue"
+        },
+        {
+            name: "John Gallagher"
+        },
+        {
+            name: "John Howe"
+        },
+        {
+            name: "John Malloy"
+        },
+        {
+            name: "John Matson"
+        },
+        {
+            name: "John Severin Brassell"
+        },
+        {
+            name: "John Stanko"
+        },
+        {
+            name: "John Zeleznik"
+        },
+        {
+            name: "Jon Foster"
+        },
+        {
+            name: "Jon J. Muth"
+        },
+        {
+            name: "Jonas De Ro"
+        },
+        {
+            name: "Jose Cabrera"
+        },
+        {
+            name: "Joseph Meehan"
+        },
+        {
+            name: "Josh Hass"
+        },
+        {
+            name: "Joshua Hagler"
+        },
+        {
+            name: "Josu Hernaiz"
+        },
+        {
+            name: "Julie Baroh"
+        },
+        {
+            name: "Jung Park"
+        },
+        {
+            name: "Junich Inoue"
+        },
+        {
+            name: "Junior Tomlin"
+        },
+        {
+            name: "Junko Taguchi"
+        },
+        {
+            name: "Justin Murray"
+        },
+        {
+            name: "Justin Sweet"
+        },
+        {
+            name: "Kaja Foglio"
+        },
+        {
+            name: "Kang Yu"
+        },
+        {
+            name: "Kari Johnson"
+        },
+        {
+            name: "Karl Kopinski"
+        },
+        {
+            name: "Kathryn Rathke"
+        },
+        {
+            name: "Keith Garletts"
+        },
+        {
+            name: "Keith Parkinson"
+        },
+        {
+            name: "Kekai Kotaki"
+        },
+        {
+            name: "Ken Meyer Jr."
+        },
+        {
+            name: "Kensuke Okabayashi"
+        },
+        {
+            name: "Kerstin Kaman"
+        },
+        {
+            name: "Kev Brockschmidt"
+        },
+        {
+            name: "Kev Walker"
+        },
+        {
+            name: "Kevin Dobler"
+        },
+        {
+            name: "Kevin Murphy"
+        },
+        {
+            name: "Khang Le"
+        },
+        {
+            name: "Khans of Tarkir"
+        },
+        {
+            name: "Kieran Yanner"
+        },
+        {
+            name: "Kipling West"
+        },
+        {
+            name: "Koji"
+        },
+        {
+            name: "Kristen Bishop"
+        },
+        {
+            name: "Ku Xueming"
+        },
+        {
+            name: "Kuang Sheng"
+        },
+        {
+            name: "L.A. Williams"
+        },
+        {
+            name: "Lake Hurwitz"
+        },
+        {
+            name: "Larry Elmore"
+        },
+        {
+            name: "Larry MacDougall"
+        },
+        {
+            name: "Lars Grant-West"
+        },
+        {
+            name: "Lawrence Snelly"
+        },
+        {
+            name: "LHQ"
+        },
+        {
+            name: "Li Tie"
+        },
+        {
+            name: "Li Wang"
+        },
+        {
+            name: "Li Xiaohua"
+        },
+        {
+            name: "Li Youliang"
+        },
+        {
+            name: "Li Yousong"
+        },
+        {
+            name: "Liam Sharp"
+        },
+        {
+            name: "Lie Tiu"
+        },
+        {
+            name: "Lin Yan"
+        },
+        {
+            name: "Liu Jianjian"
+        },
+        {
+            name: "Liu Shangying"
+        },
+        {
+            name: "Lius Lasahido"
+        },
+        {
+            name: "Liz Danforth"
+        },
+        {
+            name: "Lou Harrison"
+        },
+        {
+            name: "Lubov"
+        },
+        {
+            name: "Luca Zontini"
+        },
+        {
+            name: "Lucas Graciano"
+        },
+        {
+            name: "Lucio Parillo"
+        },
+        {
+            name: "M.W. Kaluta"
+        },
+        {
+            name: "Magali Villeneuve"
+        },
+        {
+            name: "Marc Fishman"
+        },
+        {
+            name: "Marc Simonetti"
+        },
+        {
+            name: "Marcelo Vignali"
+        },
+        {
+            name: "Marco Nelor"
+        },
+        {
+            name: "Margaret Organ-Kean"
+        },
+        {
+            name: "Mark Brill"
+        },
+        {
+            name: "Mark Harrison"
+        },
+        {
+            name: "Mark Hyzer"
+        },
+        {
+            name: "Mark Nelson"
+        },
+        {
+            name: "Mark Poole"
+        },
+        {
+            name: "Mark Romanoski"
+        },
+        {
+            name: "Mark Rosewater"
+        },
+        {
+            name: "Mark Tedin"
+        },
+        {
+            name: "Mark Zug"
+        },
+        {
+            name: "Martin McKenna"
+        },
+        {
+            name: "Martina Pilcerova"
+        },
+        {
+            name: "Massimilano Frezzato"
+        },
+        {
+            name: "Mathias Kollros"
+        },
+        {
+            name: "Matt Cavotta"
+        },
+        {
+            name: "Matt Stawicki"
+        },
+        {
+            name: "Matt Stewart"
+        },
+        {
+            name: "Matt Thompson"
+        },
+        {
+            name: "Matthew D. Wilson"
+        },
+        {
+            name: "Matthew Mitchell"
+        },
+        {
+            name: "Melissa Benson"
+        },
+        {
+            name: "Miao Aili"
+        },
+        {
+            name: "Michael Bruinsma"
+        },
+        {
+            name: "Michael C. Hayes"
+        },
+        {
+            name: "Michael Danza"
+        },
+        {
+            name: "Michael Koelsch"
+        },
+        {
+            name: "Michael Komarck"
+        },
+        {
+            name: "Michael Phillippi"
+        },
+        {
+            name: "Michael Ryan"
+        },
+        {
+            name: "Michael Sutfin"
+        },
+        {
+            name: "Michael Weaver"
+        },
+        {
+            name: "Michael Whelan"
+        },
+        {
+            name: "Mike Bierek"
+        },
+        {
+            name: "Mike Dringenberg"
+        },
+        {
+            name: "Mike Kerr"
+        },
+        {
+            name: "Mike Kimble"
+        },
+        {
+            name: "Mike Ploog"
+        },
+        {
+            name: "Mike Raabe"
+        },
+        {
+            name: "Mike Sass"
+        },
+        {
+            name: "Min Yum"
+        },
+        {
+            name: "Mitch Cotie"
+        },
+        {
+            name: "Mitsuaki Sagiri"
+        },
+        {
+            name: "Monte Michael Moore"
+        },
+        {
+            name: "Natalie Hertz"
+        },
+        {
+            name: "Nelson DeCastro"
+        },
+        {
+            name: "NéNé Thomas"
+        },
+        {
+            name: "Nic Klein"
+        },
+        {
+            name: "Nick Pecival"
+        },
+        {
+            name: "Nicola Leonard"
+        },
+        {
+            name: "Nils Hamm"
+        },
+        {
+            name: "Noah Bradley"
+        },
+        {
+            name: "Nottsuo"
+        },
+        {
+            name: "Omaha Pérez"
+        },
+        {
+            name: "Omar Rayyan"
+        },
+        {
+            name: "Paolo Parente"
+        },
+        {
+            name: "Pat Lee"
+        },
+        {
+            name: "Pat Morrissey"
+        },
+        {
+            name: "Patric Kochakji"
+        },
+        {
+            name: "Patrick Beel"
+        },
+        {
+            name: "Patrick Faricy"
+        },
+        {
+            name: "Patrick Ho"
+        },
+        {
+            name: "Paul Bonner"
+        },
+        {
+            name: "Paul Chadwick"
+        },
+        {
+            name: "Paul Lee"
+        },
+        {
+            name: "Pete Venters"
+        },
+        {
+            name: "Peter Bollinger"
+        },
+        {
+            name: "Peter Mohrbacher"
+        },
+        {
+            name: "Phil Foglio"
+        },
+        {
+            name: "Philip Mosness"
+        },
+        {
+            name: "Philip Straub"
+        },
+        {
+            name: "Philip Tan"
+        },
+        {
+            name: "Puddnhead"
+        },
+        {
+            name: "Qi Baocheng"
+        },
+        {
+            name: "Qiao Dafu"
+        },
+        {
+            name: "Qin Jun"
+        },
+        {
+            name: "Qu Xin"
+        },
+        {
+            name: "Quang Xuejun"
+        },
+        {
+            name: "Quinton Hoover"
+        },
+        {
+            name: "Ralph Horsley"
+        },
+        {
+            name: "Randis Albion"
+        },
+        {
+            name: "Randy Asplund-Faith"
+        },
+        {
+            name: "Randy Elliott"
+        },
+        {
+            name: "Randy Gallegos"
+        },
+        {
+            name: "Ray Lago"
+        },
+        {
+            name: "Raymond Swanland"
+        },
+        {
+            name: "Rebecca Guay"
+        },
+        {
+            name: "Rebekah Lynn"
+        },
+        {
+            name: "Richard Kane Ferguson"
+        },
+        {
+            name: "Richard Sardinha"
+        },
+        {
+            name: "Richard Thomas"
+        },
+        {
+            name: "Richard Whitters"
+        },
+        {
+            name: "Richard Wright"
+        },
+        {
+            name: "Rick Emond"
+        },
+        {
+            name: "Rick Farrell"
+        },
+        {
+            name: "rk post"
+        },
+        {
+            name: "Rob Alexander"
+        },
+        {
+            name: "Robert Bliss"
+        },
+        {
+            name: "Robh Ruppel"
+        },
+        {
+            name: "Roger Raupp"
+        },
+        {
+            name: "Rogério Vilela"
+        },
+        {
+            name: "Romas Kukalis"
+        },
+        {
+            name: "Ron Brown"
+        },
+        {
+            name: "Ron Chironna"
+        },
+        {
+            name: "Ron Spears"
+        },
+        {
+            name: "Ron Spencer"
+        },
+        {
+            name: "Ron Walotsky"
+        },
+        {
+            name: "Ruth Thompson"
+        },
+        {
+            name: "Ryan Barger"
+        },
+        {
+            name: "Ryan Pancoast"
+        },
+        {
+            name: "Ryan Yee"
+        },
+        {
+            name: "Sal Villagran"
+        },
+        {
+            name: "Sam Burley"
+        },
+        {
+            name: "Sam Wolfe Connelly"
+        },
+        {
+            name: "Sam Wood"
+        },
+        {
+            name: "Sandra Everingham"
+        },
+        {
+            name: "Scott Altmann"
+        },
+        {
+            name: "Scott Bailey"
+        },
+        {
+            name: "Scott Chou"
+        },
+        {
+            name: "Scott Hampton"
+        },
+        {
+            name: "Scott Kirschner"
+        },
+        {
+            name: "Scott M. Fischer"
+        },
+        {
+            name: "Sean McConnell"
+        },
+        {
+            name: "Seb McKinnon"
+        },
+        {
+            name: "Shang Huitong"
+        },
+        {
+            name: "Shelly Wan"
+        },
+        {
+            name: "Shishizaru"
+        },
+        {
+            name: "Sidharth Chaturvedi"
+        },
+        {
+            name: "Simon Bisley"
+        },
+        {
+            name: "Slawowir Maniak"
+        },
+        {
+            name: "Solomon Au Yeung"
+        },
+        {
+            name: "Song Shikai"
+        },
+        {
+            name: "Stephan Martiniere"
+        },
+        {
+            name: "Stephanie Law"
+        },
+        {
+            name: "Stephen Daniele"
+        },
+        {
+            name: "Stephen L. Walsh"
+        },
+        {
+            name: "Stephen Tappin"
+        },
+        {
+            name: "Steve Argyle"
+        },
+        {
+            name: "Steve Ellis"
+        },
+        {
+            name: "Steve Firchow"
+        },
+        {
+            name: "Steve Luke"
+        },
+        {
+            name: "Steve Prescott"
+        },
+        {
+            name: "Steve White"
+        },
+        {
+            name: "Steven Belledin"
+        },
+        {
+            name: "Stuart Beel"
+        },
+        {
+            name: "Stuart Griffin"
+        },
+        {
+            name: "Sue Ellen Brown"
+        },
+        {
+            name: "Sun Nan"
+        },
+        {
+            name: "Susan Van Camp"
+        },
+        {
+            name: "Svetlin Velinov"
+        },
+        {
+            name: "Tang Xiaogu"
+        },
+        {
+            name: "Ted Galaday"
+        },
+        {
+            name: "Ted Naifeh"
+        },
+        {
+            name: "Terese Nielsen"
+        },
+        {
+            name: "Thomas Denmark"
+        },
+        {
+            name: "Thomas Gianni"
+        },
+        {
+            name: "Thomas M. Baxa"
+        },
+        {
+            name: "Tianhua X"
+        },
+        {
+            name: "Tim Hildebrandt"
+        },
+        {
+            name: "Titus Lunter"
+        },
+        {
+            name: "Todd Lockwood"
+        },
+        {
+            name: "Tom Fleming"
+        },
+        {
+            name: "Tom Kyffin"
+        },
+        {
+            name: "Tom Wänerstrand"
+        },
+        {
+            name: "Tomas Giorello"
+        },
+        {
+            name: "Tomasz Jedruszek"
+        },
+        {
+            name: "Tony DiTelizzi"
+        },
+        {
+            name: "Tony Roberts"
+        },
+        {
+            name: "Tony Szczudlo"
+        },
+        {
+            name: "Torstein Nordstrand"
+        },
+        {
+            name: "Trevor Claxton"
+        },
+        {
+            name: "Trevor Hairsine"
+        },
+        {
+            name: "Tsutomu Kawade"
+        },
+        {
+            name: "Tyler Jacobson"
+        },
+        {
+            name: "Una Fricker"
+        },
+        {
+            name: "Val Mayerik"
+        },
+        {
+            name: "Vance Kovacs"
+        },
+        {
+            name: "Véronique Meignaud"
+        },
+        {
+            name: "Victor Adame Minguez"
+        },
+        {
+            name: "Viktor Titov"
+        },
+        {
+            name: "Vincent Evans"
+        },
+        {
+            name: "Vincent Proce"
+        },
+        {
+            name: "Volkan Baga"
+        },
+        {
+            name: "Wang Chiuxiong"
+        },
+        {
+            name: "Wang Feng"
+        },
+        {
+            name: "Wang Yuqun"
+        },
+        {
+            name: "Warren Mahy"
+        },
+        {
+            name: "Wayne England"
+        },
+        {
+            name: "Wayne Reynolds"
+        },
+        {
+            name: "Wesley Burt"
+        },
+        {
+            name: "Whit Brachna"
+        },
+        {
+            name: "William Donohoe"
+        },
+        {
+            name: "William O'Connor"
+        },
+        {
+            name: "William Simpson"
+        },
+        {
+            name: "Willian Murai"
+        },
+        {
+            name: "Winona Nelson"
+        },
+        {
+            name: "Xu Tan"
+        },
+        {
+            name: "Xu Xiaoming"
+        },
+        {
+            name: "Yang Guangmai"
+        },
+        {
+            name: "Yang Hong"
+        },
+        {
+            name: "Yang Yun Kwon"
+        },
+        {
+            name: "Yefim Kligerman"
+        },
+        {
+            name: "Yeong-Hao Min"
+        },
+        {
+            name: "Yohann Schepacz"
+        },
+        {
+            name: "Yokota Katsumi"
+        },
+        {
+            name: "Zack Stella"
+        },
+        {
+            name: "Zak Plucinsky"
+        },
+        {
+            name: "Zezhou Chen"
+        },
+        {
+            name: "Zhang Jhiazhen"
+        },
+        {
+            name: "Zhao Dafu"
+        },
+        {
+            name: "Zhao Tan"
+        },
+        {
+            name: "Zina Saunders"
+        },
+        {
+            name: "Zoltan Boros"
+        }
+    ]
+);

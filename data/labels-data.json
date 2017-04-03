@@ -1,0 +1,43 @@
+db.createCollection('labels');
+db.labels.insert(
+    [
+        {
+            lang: 'pl',
+            labels: {
+                artist: 'artysta',
+                color: 'kolor',
+                expansion: 'edycja',
+                rarity: 'występowanie',
+                subtype: 'podtyp',
+                type: 'typ',
+                search: 'szukaj',
+                placeholder: {
+                    select: 'Wyszukaj...',
+                    input: 'Wpisz...'
+                },
+                add: 'Dodaj',
+                remove: 'Usuń',
+                clear: 'Wyczyść'
+            }
+        },
+        {
+            lang: 'en',
+            labels: {
+                artist: 'artist',
+                color: 'color',
+                expansion: 'expansion',
+                rarity: 'rarity',
+                subtype: 'subtype',
+                type: 'type',
+                search: 'search',
+                placeholder: {
+                    select: 'Search...',
+                    input: 'Insert...'
+                },
+                add: 'Add',
+                remove: 'Remove',
+                clear: 'Clear'
+            }
+        }
+    ]
+);

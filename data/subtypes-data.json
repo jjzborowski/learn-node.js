@@ -1,0 +1,1004 @@
+db.createCollection('subtypes');
+db.subtypes.insert(
+    [
+        {
+            name: "plains"
+        },
+        {
+            name: "island"
+        },
+        {
+            name: "swamp"
+        },
+        {
+            name: "mountain"
+        },
+        {
+            name: "forest"
+        },
+        {
+            name: "desert"
+        },
+        {
+            name: "gate"
+        },
+        {
+            name: "lair"
+        },
+        {
+            name: "locus"
+        },
+        {
+            name: "urza's"
+        },
+        {
+            name: "mine"
+        },
+        {
+            name: "power-plant"
+        },
+        {
+            name: "tower"
+        },
+        {
+            name: "advisor"
+        },
+        {
+            name: "aetherborn"
+        },
+        {
+            name: "ally"
+        },
+        {
+            name: "angel"
+        },
+        {
+            name: "antelope"
+        },
+        {
+            name: "ape"
+        },
+        {
+            name: "archer"
+        },
+        {
+            name: "archon"
+        },
+        {
+            name: "artificer"
+        },
+        {
+            name: "assassin"
+        },
+        {
+            name: "assembly-worker"
+        },
+        {
+            name: "atog"
+        },
+        {
+            name: "aurochs"
+        },
+        {
+            name: "avatar"
+        },
+        {
+            name: "badger"
+        },
+        {
+            name: "barbarian"
+        },
+        {
+            name: "basilisk"
+        },
+        {
+            name: "bat"
+        },
+        {
+            name: "bear"
+        },
+        {
+            name: "beast"
+        },
+        {
+            name: "beeble"
+        },
+        {
+            name: "berserker"
+        },
+        {
+            name: "bird"
+        },
+        {
+            name: "blinkmoth"
+        },
+        {
+            name: "boar"
+        },
+        {
+            name: "bringer"
+        },
+        {
+            name: "brushwagg"
+        },
+        {
+            name: "camarid"
+        },
+        {
+            name: "camel"
+        },
+        {
+            name: "caribou"
+        },
+        {
+            name: "carrier"
+        },
+        {
+            name: "cat"
+        },
+        {
+            name: "centaur"
+        },
+        {
+            name: "cephalid"
+        },
+        {
+            name: "chimera"
+        },
+        {
+            name: "citizen"
+        },
+        {
+            name: "cleric"
+        },
+        {
+            name: "cockatrice"
+        },
+        {
+            name: "construct"
+        },
+        {
+            name: "coward"
+        },
+        {
+            name: "crab"
+        },
+        {
+            name: "crocodile"
+        },
+        {
+            name: "cyclops"
+        },
+        {
+            name: "dauthi"
+        },
+        {
+            name: "demon"
+        },
+        {
+            name: "deserter"
+        },
+        {
+            name: "devil"
+        },
+        {
+            name: "djinn"
+        },
+        {
+            name: "dragon"
+        },
+        {
+            name: "drake"
+        },
+        {
+            name: "dreadnought"
+        },
+        {
+            name: "drone"
+        },
+        {
+            name: "druid"
+        },
+        {
+            name: "dryad"
+        },
+        {
+            name: "dwarf"
+        },
+        {
+            name: "efreet"
+        },
+        {
+            name: "elder"
+        },
+        {
+            name: "eldrazi"
+        },
+        {
+            name: "elemental"
+        },
+        {
+            name: "elephant"
+        },
+        {
+            name: "elf"
+        },
+        {
+            name: "elk"
+        },
+        {
+            name: "eye"
+        },
+        {
+            name: "faerie"
+        },
+        {
+            name: "ferret"
+        },
+        {
+            name: "fish"
+        },
+        {
+            name: "flagbearer"
+        },
+        {
+            name: "fox"
+        },
+        {
+            name: "frog"
+        },
+        {
+            name: "fungus"
+        },
+        {
+            name: "gargoyle"
+        },
+        {
+            name: "germ"
+        },
+        {
+            name: "giant"
+        },
+        {
+            name: "gnome"
+        },
+        {
+            name: "goat"
+        },
+        {
+            name: "goblin"
+        },
+        {
+            name: "god"
+        },
+        {
+            name: "golem"
+        },
+        {
+            name: "gorgon"
+        },
+        {
+            name: "graveborn"
+        },
+        {
+            name: "gremlin"
+        },
+        {
+            name: "griffin"
+        },
+        {
+            name: "hag"
+        },
+        {
+            name: "harpy"
+        },
+        {
+            name: "hellion"
+        },
+        {
+            name: "hippo"
+        },
+        {
+            name: "hippogriff"
+        },
+        {
+            name: "homarid"
+        },
+        {
+            name: "homunculus"
+        },
+        {
+            name: "horror"
+        },
+        {
+            name: "horse"
+        },
+        {
+            name: "hound"
+        },
+        {
+            name: "human"
+        },
+        {
+            name: "hydra"
+        },
+        {
+            name: "hyena"
+        },
+        {
+            name: "illusion"
+        },
+        {
+            name: "imp"
+        },
+        {
+            name: "incarnation"
+        },
+        {
+            name: "insect"
+        },
+        {
+            name: "jellyfish"
+        },
+        {
+            name: "juggernaut"
+        },
+        {
+            name: "kavu"
+        },
+        {
+            name: "kirin"
+        },
+        {
+            name: "kithkin"
+        },
+        {
+            name: "knight"
+        },
+        {
+            name: "kobold"
+        },
+        {
+            name: "kor"
+        },
+        {
+            name: "kraken"
+        },
+        {
+            name: "lamia"
+        },
+        {
+            name: "lammasu"
+        },
+        {
+            name: "leech"
+        },
+        {
+            name: "leviathan"
+        },
+        {
+            name: "lhurgoyf"
+        },
+        {
+            name: "licid"
+        },
+        {
+            name: "lizard"
+        },
+        {
+            name: "manticore"
+        },
+        {
+            name: "masticore"
+        },
+        {
+            name: "mercenary"
+        },
+        {
+            name: "merfolk"
+        },
+        {
+            name: "metathran"
+        },
+        {
+            name: "minion"
+        },
+        {
+            name: "minotaur"
+        },
+        {
+            name: "mole"
+        },
+        {
+            name: "monger"
+        },
+        {
+            name: "mongoose"
+        },
+        {
+            name: "monk"
+        },
+        {
+            name: "monkey"
+        },
+        {
+            name: "moonfolk"
+        },
+        {
+            name: "mutant"
+        },
+        {
+            name: "myr"
+        },
+        {
+            name: "mystic"
+        },
+        {
+            name: "naga"
+        },
+        {
+            name: "nautilus"
+        },
+        {
+            name: "nephilim"
+        },
+        {
+            name: "nightmare"
+        },
+        {
+            name: "nightstalker"
+        },
+        {
+            name: "ninja"
+        },
+        {
+            name: "noggle"
+        },
+        {
+            name: "nomad"
+        },
+        {
+            name: "nymph"
+        },
+        {
+            name: "octopus"
+        },
+        {
+            name: "ogre"
+        },
+        {
+            name: "ooze"
+        },
+        {
+            name: "orb"
+        },
+        {
+            name: "orc"
+        },
+        {
+            name: "orgg"
+        },
+        {
+            name: "ouphe"
+        },
+        {
+            name: "ox"
+        },
+        {
+            name: "oyster"
+        },
+        {
+            name: "pegasus"
+        },
+        {
+            name: "pentavite"
+        },
+        {
+            name: "pest"
+        },
+        {
+            name: "phelddagrif"
+        },
+        {
+            name: "phoenix"
+        },
+        {
+            name: "pilot"
+        },
+        {
+            name: "pincher"
+        },
+        {
+            name: "pirate"
+        },
+        {
+            name: "plant"
+        },
+        {
+            name: "praetor"
+        },
+        {
+            name: "prism"
+        },
+        {
+            name: "processor"
+        },
+        {
+            name: "rabbit"
+        },
+        {
+            name: "rat"
+        },
+        {
+            name: "rebel"
+        },
+        {
+            name: "reflection"
+        },
+        {
+            name: "rhino"
+        },
+        {
+            name: "rigger"
+        },
+        {
+            name: "rogue"
+        },
+        {
+            name: "sable"
+        },
+        {
+            name: "salamander"
+        },
+        {
+            name: "samurai"
+        },
+        {
+            name: "sand"
+        },
+        {
+            name: "saproling"
+        },
+        {
+            name: "satyr"
+        },
+        {
+            name: "scarecrow"
+        },
+        {
+            name: "scion"
+        },
+        {
+            name: "scorpion"
+        },
+        {
+            name: "scout"
+        },
+        {
+            name: "serf"
+        },
+        {
+            name: "serpent"
+        },
+        {
+            name: "servo"
+        },
+        {
+            name: "shade"
+        },
+        {
+            name: "shaman"
+        },
+        {
+            name: "shapeshifter"
+        },
+        {
+            name: "sheep"
+        },
+        {
+            name: "siren"
+        },
+        {
+            name: "skeleton"
+        },
+        {
+            name: "slith"
+        },
+        {
+            name: "sliver"
+        },
+        {
+            name: "slug"
+        },
+        {
+            name: "snake"
+        },
+        {
+            name: "soldier"
+        },
+        {
+            name: "soltari"
+        },
+        {
+            name: "spawn"
+        },
+        {
+            name: "specter"
+        },
+        {
+            name: "spellshaper"
+        },
+        {
+            name: "sphinx"
+        },
+        {
+            name: "spider"
+        },
+        {
+            name: "spike"
+        },
+        {
+            name: "spirit"
+        },
+        {
+            name: "splinter"
+        },
+        {
+            name: "sponge"
+        },
+        {
+            name: "squid"
+        },
+        {
+            name: "squirrel"
+        },
+        {
+            name: "starfish"
+        },
+        {
+            name: "surrakar"
+        },
+        {
+            name: "survivor"
+        },
+        {
+            name: "tetravite"
+        },
+        {
+            name: "thalakos"
+        },
+        {
+            name: "thopter"
+        },
+        {
+            name: "thrull"
+        },
+        {
+            name: "treefolk"
+        },
+        {
+            name: "triskelavite"
+        },
+        {
+            name: "troll"
+        },
+        {
+            name: "turtle"
+        },
+        {
+            name: "unicorn"
+        },
+        {
+            name: "vampire"
+        },
+        {
+            name: "vedalken"
+        },
+        {
+            name: "viashino"
+        },
+        {
+            name: "volver"
+        },
+        {
+            name: "wall"
+        },
+        {
+            name: "warrior"
+        },
+        {
+            name: "weird"
+        },
+        {
+            name: "werewolf"
+        },
+        {
+            name: "whale"
+        },
+        {
+            name: "wizard"
+        },
+        {
+            name: "wolf"
+        },
+        {
+            name: "wolverine"
+        },
+        {
+            name: "wombat"
+        },
+        {
+            name: "worm"
+        },
+        {
+            name: "wraith"
+        },
+        {
+            name: "wurm"
+        },
+        {
+            name: "yeti"
+        },
+        {
+            name: "zombie"
+        },
+        {
+            name: "zubera"
+        },
+        {
+            name: "arcane"
+        },
+        {
+            name: "trap"
+        },
+        {
+            name: "aura"
+        },
+        {
+            name: "curse"
+        },
+        {
+            name: "shrine"
+        },
+        {
+            name: "clue"
+        },
+        {
+            name: "contraption"
+        },
+        {
+            name: "equipment"
+        },
+        {
+            name: "fortification"
+        },
+        {
+            name: "vehicle"
+        },
+        {
+            name: "ajani"
+        },
+        {
+            name: "arlinn"
+        },
+        {
+            name: "ashiok"
+        },
+        {
+            name: "bolas"
+        },
+        {
+            name: "chandra"
+        },
+        {
+            name: "dack"
+        },
+        {
+            name: "daretti"
+        },
+        {
+            name: "domri"
+        },
+        {
+            name: "dovin"
+        },
+        {
+            name: "elspeth"
+        },
+        {
+            name: "freyalise"
+        },
+        {
+            name: "garruk"
+        },
+        {
+            name: "gideon"
+        },
+        {
+            name: "jace"
+        },
+        {
+            name: "karn"
+        },
+        {
+            name: "kiora"
+        },
+        {
+            name: "koth"
+        },
+        {
+            name: "liliana"
+        },
+        {
+            name: "nahiri"
+        },
+        {
+            name: "nissa"
+        },
+        {
+            name: "narset"
+        },
+        {
+            name: "nixilis"
+        },
+        {
+            name: "ral"
+        },
+        {
+            name: "saheeli"
+        },
+        {
+            name: "sarkhan"
+        },
+        {
+            name: "sorin"
+        },
+        {
+            name: "tamiyo"
+        },
+        {
+            name: "teferi"
+        },
+        {
+            name: "tezzeret"
+        },
+        {
+            name: "tibalt"
+        },
+        {
+            name: "ugin"
+        },
+        {
+            name: "venser"
+        },
+        {
+            name: "vraska"
+        },
+        {
+            name: "xenagos"
+        },
+        {
+            name: "alara"
+        },
+        {
+            name: "arkhos"
+        },
+        {
+            name: "azgol"
+        },
+        {
+            name: "belenon"
+        },
+        {
+            name: "bolas's meditation realm"
+        },
+        {
+            name: "dominaria"
+        },
+        {
+            name: "equilor"
+        },
+        {
+            name: "ergamon"
+        },
+        {
+            name: "fabacin"
+        },
+        {
+            name: "iquatana"
+        },
+        {
+            name: "innistrad"
+        },
+        {
+            name: "ir"
+        },
+        {
+            name: "kaldheim"
+        },
+        {
+            name: "kamigawa"
+        },
+        {
+            name: "karsus"
+        },
+        {
+            name: "kephalai"
+        },
+        {
+            name: "kolbahan"
+        },
+        {
+            name: "kyneth"
+        },
+        {
+            name: "lorwyn"
+        },
+        {
+            name: "luvion"
+        },
+        {
+            name: "mercadia"
+        },
+        {
+            name: "mirrodin"
+        },
+        {
+            name: "moag"
+        },
+        {
+            name: "mongseng"
+        },
+        {
+            name: "muraganda"
+        },
+        {
+            name: "new phyrexia"
+        },
+        {
+            name: "phyrexia"
+        },
+        {
+            name: "pyrulea"
+        },
+        {
+            name: "rabiah"
+        },
+        {
+            name: "rath"
+        },
+        {
+            name: "ravnica"
+        },
+        {
+            name: "regatha"
+        },
+        {
+            name: "segovia"
+        },
+        {
+            name: "serra's realm"
+        },
+        {
+            name: "shadowmoor"
+        },
+        {
+            name: "shandalar"
+        },
+        {
+            name: "ulgrotha"
+        },
+        {
+            name: "valla"
+        },
+        {
+            name: "vryn"
+        },
+        {
+            name: "wildfire"
+        },
+        {
+            name: "zendikar"
+        }
+    ]
+);

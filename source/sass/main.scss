@@ -8,7 +8,18 @@
 
 body{
     font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
     padding: 15px;
+}
+
+label{
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+button{
+    padding: 0.2em 0.5em;
+    text-transform: uppercase;
 }
 
 .container{
@@ -18,4 +29,7 @@ body{
     flex-direction: column;
 }
 
+@import "cwc-config.scss";
 @import "cwc-select.scss";
+@import "cwc-input-text.scss";
+@import "cwc-input-checkbox.scss";

@@ -1,0 +1,35 @@
+db.createCollection('colors');
+db.colors.insert(
+    [
+        {
+            name: "white",
+            symbol: 'W',
+            image: 'img/colors/W.svg'
+        },
+        {
+            name: "blue",
+            symbol: 'U',
+            image: 'img/colors/U.svg'
+        },
+        {
+            name: "black",
+            symbol: 'B',
+            image: 'img/colors/B.svg'
+        },
+        {
+            name: "red",
+            symbol: 'R',
+            image: 'img/colors/R.svg'
+        },
+        {
+            name: "green",
+            symbol: 'G',
+            image: 'img/colors/G.svg'
+        },
+        {
+            name: "colorless",
+            symbol: 'C',
+            image: 'img/colors/C.svg'
+        }
+    ]
+);

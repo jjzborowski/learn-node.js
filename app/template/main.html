@@ -1,17 +1,95 @@
-<label>Artist</label>
-<cwc-select id="artists" controller="artists-ctrl"></cwc-select>
+<!--
+<label>{{labels.artist}}</label>
+<cwc-select id="artist" controller="artist-ctrl"></cwc-select>
 <hr>
-<label>Color</label>
-<cwc-select id="colors" controller="colors-ctrl"></cwc-select>
+<label>{{labels.color}}</label>
+<cwc-select id="color" controller="color-ctrl"></cwc-select>
 <hr>
-<label>Expansion</label>
-<cwc-select id="expansions" controller="expansions-ctrl"></cwc-select>
+<label>{{labels.expansion}}</label>
+<cwc-select id="expansion" controller="expansion-ctrl"></cwc-select>
 <hr>
-<label>Rarity</label>
-<cwc-select id="rarities" controller="rarities-ctrl"></cwc-select>
+<label>{{labels.rarity}}</label>
+<cwc-select id="rarity" controller="rarity-ctrl"></cwc-select>
 <hr>
-<label>Subtype</label>
-<cwc-select id="subtypes" controller="subtypes-ctrl"></cwc-select>
+<label>{{labels.subtype}}</label>
+<cwc-select id="subtype" controller="subtype-ctrl"></cwc-select>
 <hr>
-<label>Type</label>
-<cwc-select id="types" controller="types-ctrl"></cwc-select>
+<label>{{labels.type}}</label>
+<cwc-select id="type" controller="type-ctrl"></cwc-select>
+<hr>
+-->
+
+
+<cwc-filter id="artist" ng-controller="artist-ctrl">
+    <label>{{labels.artist}}</label>
+    <cwc-select id="artist-select" ng-controller="artist-select-ctrl"></cwc-select>
+    <button ng-click="addSelected()">{{labels.add}}</button>
+    <cwc-selected>
+        <span ng-repeat="item in find['artist']">{{item}} <i class="fa fa-times-circle" aria-hidden="true" ng-click="removeSelected($index)"></i></span>
+    </cwc-selected>
+</cwc-filter>
+<hr>
+<cwc-filter id="color" ng-controller="color-ctrl">
+    <label>{{labels.color}}</label>
+    <cwc-select id="color-select" ng-controller="color-select-ctrl"></cwc-select>
+    <button ng-click="addSelected()">{{labels.add}}</button>
+    <cwc-selected>
+        <span ng-repeat="item in find['color']">{{item}} <i class="fa fa-times-circle" aria-hidden="true" ng-click="removeSelected($index)"></i></span>
+    </cwc-selected>
+</cwc-filter>
+<hr>
+<cwc-filter id="expansion" ng-controller="expansion-ctrl">
+    <label>{{labels.expansion}}</label>
+    <cwc-select id="expansion-select" ng-controller="expansion-select-ctrl"></cwc-select>
+    <button ng-click="addSelected()">{{labels.add}}</button>
+    <cwc-selected>
+        <span ng-repeat="item in find['expansion']">{{item}} <i class="fa fa-times-circle" aria-hidden="true" ng-click="removeSelected($index)"></i></span>
+    </cwc-selected>
+</cwc-filter>
+<hr>
+<cwc-filter id="rarity" ng-controller="rarity-ctrl">
+    <label>{{labels.rarity}}</label>
+    <cwc-select id="rarity-select" ng-controller="rarity-select-ctrl"></cwc-select>
+    <button ng-click="addSelected()">{{labels.add}}</button>
+    <cwc-selected>
+        <span ng-repeat="item in find['rarity']">{{item}} <i class="fa fa-times-circle" aria-hidden="true" ng-click="removeSelected($index)"></i></span>
+    </cwc-selected>
+</cwc-filter>
+<hr>
+<cwc-filter id="type" ng-controller="type-ctrl">
+    <label>{{labels.type}}</label>
+    <cwc-select id="type-select" ng-controller="type-select-ctrl"></cwc-select>
+    <button ng-click="addSelected()">{{labels.add}}</button>
+    <cwc-selected>
+        <span ng-repeat="item in find['type']">{{item}} <i class="fa fa-times-circle" aria-hidden="true" ng-click="removeSelected($index)"></i></span>
+    </cwc-selected>
+</cwc-filter>
+<hr>
+<cwc-filter id="subtype" ng-controller="subtype-ctrl">
+    <label>{{labels.subtype}}</label>
+    <cwc-select id="subtype-select" ng-controller="subtype-select-ctrl"></cwc-select>
+    <button ng-click="addSelected()">{{labels.add}}</button>
+    <cwc-selected>
+        <span ng-repeat="item in find['subtype']">{{item}} <i class="fa fa-times-circle" aria-hidden="true" ng-click="removeSelected($index)"></i></span>
+    </cwc-selected>
+</cwc-filter>
+<hr>
+
+<cwc-input-text></cwc-input-text>
+
+
+            <cwc-input-checkbox>
+                <input type="checkbox" id="c1">
+                <label for="c1"><i class="fa fa-check"></i></label>
+            </cwc-input-checkbox>
+
+
+<button ng-click="search()">{{labels.search}}</button>
+<div>
+    <div ng-repeat="card in cards | search: find">
+        <div>{{card.name}}</div>
+        <div>{{card.expansion}}</div>
+        <div>{{card.have}}</div>
+        <div>{{card.spent}}</div>
+    </div>
+</div>

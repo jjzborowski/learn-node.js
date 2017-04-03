@@ -1,13 +1,13 @@
 <input class="cwc-select-label" 
-       placeholder="Select..." 
-       ng-model="input" 
+       placeholder="{{labels.placeholder.select}}" 
+       ng-model="$parent.input" 
        ng-focus="select.openDropdown()">
 <div class="cwc-select-dropdown">
     <div class="cwc-select-container">
         <div class="cwc-select-content">
             <div class="cwc-select-option" 
-                 ng-repeat="option in options | filter: {name: input} as filtered" 
-                 ng-click="$parent.input = this.option.name; $parent.select.closeDropdown()">
+                 ng-repeat="option in $parent.options | filter: {name: $parent.input, selected: false} as filtered" 
+                 ng-click="$parent.$parent.input = this.option.name; $parent.select.closeDropdown()">
                 {{option.name}}
             </div>
         </div>
